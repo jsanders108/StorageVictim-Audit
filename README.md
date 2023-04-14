@@ -9,9 +9,9 @@ The "Fixed" folder contains the final Audit pdf (and code) after all the recomme
 
 This is a security audit of a Solidity smart contract called StorageVictim.sol. The purpose is to identify vulnerabilities in the code that could result in unanticipated and/or negative outcomes for potential users. The audit was conducted in two stages, "Initial" and "Fixed":
 
-    1) "Initial" Stage: The security audit was performed on the original code in the contract and changes were recommended.
+1) "Initial" Stage: The security audit was performed on the original code in the contract and changes were recommended.
 
-    2) "Fixed" Stage: The recommended changes were implemented and another security audit was conducted on the fixed contract.  
+2) "Fixed" Stage: The recommended changes were implemented and another security audit was conducted on the fixed contract.  
 
 
 ## Initial Audit
