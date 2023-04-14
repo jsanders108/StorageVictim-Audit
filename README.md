@@ -31,7 +31,7 @@ After implementing the changes to the code recommended by the Initial Security A
 
 The "Fixed" folder in this repository contains the Fixed Audit pdf, as well as the fixed version of StorageVictim.sol (with all the recommended changes implemented). 
 
-The results of the Fixed Security Audit are available in the Fixed Audit pdf. 
+The results of the Fixed Security Audit are available in the pdf file titled "StorageVictim Audit - Fixed". 
 
 ## Author
 
