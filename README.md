@@ -12,7 +12,7 @@ This project is a security audit of a Solidity smart contract called StorageVict
 The following process was followed to complete the initial security audit on StorageVictim.sol:
 
 1) The contract was upgraded to a newer version of Solidity (0.8x).  
-2) The contract code was reviewed manually to 1) understand its mechanics and objectives, and 2) identify any initial obvious security issues.
+2) The contract code was reviewed manually to a) understand its mechanics and objectives, and b) identify any initial obvious security issues.
 3) The contract was tested manually to determine if any intended functionality was not working correctly.
 4) The static analysis tool called “Slither” was run on the contract to identify any red, yellow, or green issues.
 5) Fuzz testing was run on the contract using a tool called “Echidna”. 
