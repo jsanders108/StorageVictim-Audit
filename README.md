@@ -19,7 +19,7 @@ The following process was followed to complete the Initial Security Audit on Sto
 
 The "Initial" folder in this repository contains the Initial Audit pdf, the original version of StorageVictim.sol, and the version of StorageVictim.sol upgraded to a newer version of solidity (0.8.1). It also contains a subfolder containing the smart contracts used for the Echidna fuzz testing.
 
-The results of the Initial Security Audit are available in the Initial Audit pdf. 
+The results of the Initial Security Audit are available in the pdf file titled "StorageVictim Audit - Initial". 
 
 
 ## Fixed Security Audit
