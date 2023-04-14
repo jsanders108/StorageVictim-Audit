@@ -1,6 +1,6 @@
 # Security Audit of StorageVictim.sol
 
-This project is a security audit of a Solidity smart contract called StorageVictim.sol. The purpose of the audit is to identify vulnerabilities in the code that could result in unanticipated and/or negative outcomes for potential users. The audit was conducted in two stages, "Initial" and "Fixed":
+This project is a security audit of a Solidity smart contract called StorageVictim.sol. The purpose of the audit was to identify vulnerabilities in the code that could result in unanticipated and/or negative outcomes for potential users. The audit was conducted in two stages, "Initial" and "Fixed":
 
 1) "Initial" Stage: The security audit was performed on the original code in the contract and changes were recommended.
 
