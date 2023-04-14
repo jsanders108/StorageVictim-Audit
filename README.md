@@ -11,44 +11,33 @@ This is a security audit of a Solidity smart contract called StorageVictim.sol. 
 
 1) "Initial" Stage: The security audit was performed on the original code in the contract and changes were recommended.
 
-2) "Fixed" Stage: The recommended changes were implemented and another security audit was conducted on the fixed contract.  
+2) "Fixed" Stage: The recommended changes were implemented and another security audit was conducted on the fixed contract (to ensure that the changes didn't introduce any additional flaws).  
 
 
-## Initial Audit
+## Initial Security Audit
 
-This audit was conducted in two stages. The 
+The following process was followed to complete the initial security audit on StorageVictim.sol:
 
-## Getting Started
+1) The contract was upgraded to a newer version of Solidity (0.8x).  
+2) The contract code was reviewed manually to 1) understand its mechanics and objectives, and 2) identify any initial obvious security issues.
+3) The contract was tested manually to determine if any intended functionality was not working correctly.
+4) The static analysis tool called “Slither” was run on the contract to identify any red, yellow, or green issues.
+5) Fuzz testing was run on the contract using a tool called “Echidna”. 
 
-### Executing program
-
-To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
-
-Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., HelloWorld.sol). Copy and paste the following code into the file:
-
-```javascript
-pragma solidity ^0.8.4;
-
-contract HelloWorld {
-    function sayHello() public pure returns (string memory) {
-        return "Hello World!";
-    }
-}
-
-```
-
-To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.4" (or another compatible version), and then click on the "Compile HelloWorld.sol" button.
-
-Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "HelloWorld" contract from the dropdown menu, and then click on the "Deploy" button.
-
-Once the contract is deployed, you can interact with it by calling the sayHello function. Click on the "HelloWorld" contract in the left-hand sidebar, and then click on the "sayHello" function. Finally, click on the "transact" button to execute the function and retrieve the "Hello World!" message.
-
-## Authors
-
-Metacrafter Chris  
-[@metacraftersio](https://twitter.com/metacraftersio)
+The "Initial" folder in this repository contains the Initial Audit pdf, the original version of StorageVictim.sol, and the version of StorageVictim.sol upgraded to a newer version of solidity (0.8.1). It also contains a subfolder containing the smart contracts used for the Echidna Fuzz testing.
 
 
-## License
+## Fixed Security Audit
 
-This project is licensed under the MIT License - see the LICENSE.md file for details
+After implementing the changes to the code recommended by the initial security audit, the folowing process was followed to complete the fixed security audit:
+
+1) The static analysis tool called “Slither” was run on the contract to identify any red, yellow, or green issues.
+2) The contract was tested manually to determine if any intended functionality was not working correctly after code changes were implemented.  
+
+The "Fixed" folder in this repository contains the Fixed Audit pdf, as well as the fixed version of StorageVictim.sol (with all the recommended changes implemented). 
+
+## Author
+
+Jason Sanders  
+
+
