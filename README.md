@@ -1,10 +1,3 @@
-For this project, I created two separate folders: 1) Initial, and 2) Fixed
-
-The "Initial" folder contains the initial Audit pdf (and code) before recommended fixes were made to the contract's code. It also contains a subfolder containing the contracts used for the Echidna Fuzz testing.
-
-The "Fixed" folder contains the final Audit pdf (and code) after all the recommended fixes were implemented.  
-
-
 # Security Audit of StorageVictim.sol
 
 This is a security audit of a Solidity smart contract called StorageVictim.sol. The purpose is to identify vulnerabilities in the code that could result in unanticipated and/or negative outcomes for potential users. The audit was conducted in two stages, "Initial" and "Fixed":
