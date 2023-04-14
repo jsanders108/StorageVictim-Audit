@@ -17,9 +17,7 @@ The following process was followed to complete the Initial Security Audit on Sto
 4) The static analysis tool called “Slither” was run on the contract to identify any red, yellow, or green issues.
 5) Fuzz testing was run on the contract using a tool called “Echidna”. 
 
-The "Initial" folder in this repository contains the Initial Audit pdf, the original version of StorageVictim.sol, and the version of StorageVictim.sol upgraded to a newer version of solidity (0.8.1). It also contains a subfolder containing the smart contracts used for the Echidna fuzz testing.
-
-The results of the Initial Security Audit are available in the pdf file titled "StorageVictim Audit - Initial". 
+The "Initial" folder in this repository contains a writeup of the results of the audit ("StorageVictim Audit - Initial.pdf"), the original version of StorageVictim.sol, and the version of StorageVictim.sol upgraded to a newer version of solidity (0.8.1). It also contains a subfolder containing the smart contracts used for the Echidna fuzz testing.
 
 
 ## Fixed Security Audit
@@ -29,9 +27,9 @@ After implementing the changes to the code recommended by the Initial Security A
 1) The static analysis tool called “Slither” was run on the contract to identify any red, yellow, or green issues.
 2) The contract was tested manually to determine if any intended functionality was not working correctly after code changes were implemented.  
 
-The "Fixed" folder in this repository contains the Fixed Audit pdf, as well as the fixed version of StorageVictim.sol (with all the recommended changes implemented). 
+The "Fixed" folder in this repository contains a writeup of the results of the audit ("StorageVictim Audit - Fixed.pdf"), as well as the fixed version of StorageVictim.sol (with all the recommended changes implemented). 
 
-The results of the Fixed Security Audit are available in the pdf file titled "StorageVictim Audit - Fixed". 
+
 
 ## Author
 
