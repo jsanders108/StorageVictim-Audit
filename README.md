@@ -9,7 +9,7 @@ This project is a security audit of a Solidity smart contract called StorageVict
 
 ## Initial Security Audit
 
-The following process was followed to complete the initial security audit on StorageVictim.sol:
+The following process was followed to complete the Initial Security Audit on StorageVictim.sol:
 
 1) The contract was upgraded to a newer version of Solidity (0.8x).  
 2) The contract code was reviewed manually to a) understand its mechanics and objectives, and b) identify any initial obvious security issues.
@@ -19,19 +19,19 @@ The following process was followed to complete the initial security audit on Sto
 
 The "Initial" folder in this repository contains the Initial Audit pdf, the original version of StorageVictim.sol, and the version of StorageVictim.sol upgraded to a newer version of solidity (0.8.1). It also contains a subfolder containing the smart contracts used for the Echidna fuzz testing.
 
-The results of the initial security audit are available in the Initial Audit pdf. 
+The results of the Initial Security Audit are available in the Initial Audit pdf. 
 
 
 ## Fixed Security Audit
 
-After implementing the changes to the code recommended by the initial security audit, the folowing process was followed to complete the fixed security audit:
+After implementing the changes to the code recommended by the Initial Security Audit, the folowing process was followed to complete the Fixed Security Audit:
 
 1) The static analysis tool called “Slither” was run on the contract to identify any red, yellow, or green issues.
 2) The contract was tested manually to determine if any intended functionality was not working correctly after code changes were implemented.  
 
 The "Fixed" folder in this repository contains the Fixed Audit pdf, as well as the fixed version of StorageVictim.sol (with all the recommended changes implemented). 
 
-The results of the fixed security audit are available in the Fixed Audit pdf. 
+The results of the Fixed Security Audit are available in the Fixed Audit pdf. 
 
 ## Author
 
