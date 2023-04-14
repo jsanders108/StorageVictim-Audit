@@ -7,11 +7,16 @@ The "Fixed" folder contains the final Audit pdf (and code) after all the recomme
 
 # Security Audit of StorageVictim.sol
 
-This Solidity program is a simple "Hello World" program that demonstrates the basic syntax and functionality of the Solidity programming language. The purpose of this program is to serve as a starting point for those who are new to Solidity and want to get a feel for how it works.
+This is a security audit of a Solidity smart contract called StorageVictim.sol. The purpose is to identify vulnerabilities in the code that could result in unanticipated and/or negative outcomes for potential users. The audit was conducted in two stages, "Initial" and "Fixed":
 
-## Description
+    1) "Initial" Stage: The security audit was performed on the original code in the contract and changes were recommended.
 
-This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. The contract has a single function that returns the string "Hello World!". This program serves as a simple and straightforward introduction to Solidity programming, and can be used as a stepping stone for more complex projects in the future.
+    2) "Fixed" Stage: The recommended changes were implemented and another security audit was conducted on the fixed contract.  
+
+
+## Initial Audit
+
+This audit was conducted in two stages. The 
 
 ## Getting Started
 
